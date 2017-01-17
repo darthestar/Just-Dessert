@@ -1,0 +1,20 @@
+<%= render 'flash_errors' %>
+
+<%= form_for ([@dessert, @review]) do |f| %>
+<div class="row">
+  <div class="medium-6 medium-centered columns">
+    <div class="input-group big-description">
+      <span class="input-group-label"><%= f.label :body, "Dessert Review" %></span>
+        <%= f.text_area :body, class: "input-group-field big-description"%>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-6 medium-centered columns">
+    <div class="action">
+      <%= f.submit "Submit", class: :button %>
+    </div>
+  </div>
+</div>
+<% end %>

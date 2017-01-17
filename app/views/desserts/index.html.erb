@@ -1,0 +1,13 @@
+
+<ul>
+  <li><%= link_to 'Edit Profile', edit_user_registration_path(params[:user]), method: :get, class: :button%></li>
+  <%= button_to 'Post a Dessert', new_dessert_path, method: :get, class: :button %>
+
+</ul>
+<h1>List of Desserts</h1>
+
+<ul class ="no margin">
+<% @desserts.each do |dessert| %>
+<li><%= link_to dessert.name, dessert_path(dessert) %></li>
+<% end %>
+</ul>

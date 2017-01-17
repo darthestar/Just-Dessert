@@ -1,0 +1,88 @@
+// @import "*";
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .best_answer {
+   border: solid;
+   border-color: #609f9f;
+ }
+
+ #answer-callout {
+   color: #609f9f;
+ }
+
+ li {
+   list-style: none;
+   padding: 10px;
+ }
+
+ .input-group-label, .button-width {
+   width: 125px;
+ }
+
+ .big-description {
+   height: 300px;
+ }
+
+ .no-margin {
+   margin: 0;
+ }
+
+ .top-margin {
+   margin: 20px;
+ }
+
+ a {
+   color: #19334d;
+ }
+
+ .orange {
+   background-color: #609f9f;
+ }
+
+ .page-header {
+   font-size: 30px;
+
+ }
+
+ .menu-text {
+   font-family: 'Megrim', cursive;
+   font-size: 3em;
+   font-weight: bold;
+ }
+
+ .best-answer {
+   background-color: white;
+   border: solid;
+   border-color: #9fc6c6;
+   color: #9fc6c6;
+ }
+
+ #vote-div {
+   display: inline-block;
+   margin-top: 2px;
+   height :1em;
+   width: 1em;
+ }
+
+ .upvote img {
+   height: 50px;
+   width: auto;
+ }
+ .downvote img{
+  height: 50px;
+  width: auto;
+}
